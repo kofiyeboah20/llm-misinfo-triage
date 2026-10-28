@@ -1,0 +1,21 @@
+# Secrets: never commit your API keys
+.env
+
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset: download it from the source instead (see README)
+data/
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
